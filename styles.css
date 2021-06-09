@@ -1,4 +1,41 @@
 body{
-    background-color: aqua;
+    background: darkblue;
+}
+
+.navbar{
     
+ background: aqua;  
+display: flex;
+}
+.navbar> *{
+    width : 50%;
+}
+.navbar .buttons{
+    text-align: right;
+}
+.tagline{
+    background: green;
+}
+.features{
+    background: coral;
+    display: flex;
+}
+.footer{
+    background: cyan;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.w-100{
+    width: 100%;
+    text-align: center;
+}
+.feat{
+    
+    border: 10px purple ;
+    width: 33%;
+}
+.p10{
+    padding: 10px;
 }
