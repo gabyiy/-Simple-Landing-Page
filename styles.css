@@ -24,7 +24,7 @@ display: flex;
     background: cyan;
 }
 .container{
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
 }
 .w-100{
