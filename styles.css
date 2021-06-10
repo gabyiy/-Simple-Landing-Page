@@ -1,7 +1,8 @@
 body{
-    background: darkblue;
-}
+    border: 0%;
+    margin: 0;
 
+}
 .navbar{
     
  background: aqua;  
@@ -28,7 +29,7 @@ display: flex;
     margin: auto;
 }
 .w-100{
-    width: 100%;
+    width: 99%;
     text-align: center;
 }
 .feat{
@@ -38,4 +39,34 @@ display: flex;
 }
 .p10{
     padding: 10px;
+}
+
+.firstImg{
+    width:102%;
+    height: 50%;
+ background-position: center;
+ background-size: cover;
+}
+.pozitio{
+    position: relative;
+}
+.contPhoto{
+    position: relative;
+    text-align: center;
+}
+.textH1{
+    position: absolute;
+padding-top: 250px;
+padding-left: 560px;
+color: white;
+font-size: 350%;
+
+}
+.signB{
+    position: absolute;
+    padding-bottom: 300px;
+}
+.mail{
+    position: absolute;
+    padding-top: 200px;
 }

@@ -9,8 +9,8 @@ let form=document.querySelector("form");
 //step 2 atach the function send to the form submit event
 form.onsubmit=send
 //step 3 declace the fuction send and call it
-function send(e){//with e we prevent that the page wil lrefresh afer we introduce the email
-    e.preventDefault()
+function send(){//with e we prevent that the page wil lrefresh afer we introduce the email
+  //  e.preventDefault()
 alert ("ati apasat subimt")
 sendEmail()
 }
