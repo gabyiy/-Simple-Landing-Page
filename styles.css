@@ -1,12 +1,18 @@
 body{
-    border: 0%;
     margin: 0;
+    padding: 0;
+    background: floralwhite;
 
+}
+p{
+  color:  darkgray;
 }
 .navbar{
     
- background: aqua;  
 display: flex;
+padding-top: 20px;
+padding-bottom: 10px;
+font-size:140%;
 }
 .navbar> *{
     width : 50%;
@@ -17,56 +23,95 @@ display: flex;
 .tagline{
     background: green;
 }
-.features{
-    background: coral;
-    display: flex;
+
+.signIn{
+    size: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.4s;
+        padding: 2px 12px; 
+        background-color:#008CBA;
+        border: none;
+        margin-right: 20px;
+        font-size: 20px;
+        border-radius: 8px;
+        color:white;
+
+
 }
-.footer{
-    background: cyan;
-}
-.container{
-    max-width: 1000px;
-    margin: auto;
-}
-.w-100{
-    width: 99%;
-    text-align: center;
-}
-.feat{
-    
-    border: 10px purple ;
-    width: 33%;
-}
-.p10{
-    padding: 10px;
-}
+
 
 .firstImg{
-    width:102%;
+    width:100%;
     height: 50%;
  background-position: center;
+ background-position: center center;
+ -webkit-background-size:cover;
  background-size: cover;
+ width: 100%;
+ height: 100vh;
 }
-.pozitio{
-    position: relative;
-}
+
 .contPhoto{
-    position: relative;
-    text-align: center;
+
+position: relative;
 }
 .textH1{
-    position: absolute;
-padding-top: 250px;
-padding-left: 560px;
 color: white;
-font-size: 350%;
+font-size: 50px;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-shadow: 0,0,10p  black;
+}
 
-}
-.signB{
-    position: absolute;
-    padding-bottom: 300px;
-}
 .mail{
+    color:black;
+    font-size: 30px;
     position: absolute;
-    padding-top: 200px;
+    top: 56%;
+    left:34%;
+    padding-right: 120px;
+
+   
+    
+  }
+  .singnB {
+      padding-right: 30px;
+      background-color:#008CBA;
+      border: none;
+      border-radius: 8px;
+        color:white;
+        font-size: 33px;
+        position: absolute;
+        top: 59%;
+        right: 30%;
+        transform: translate(-50%,-65%);
+        size: 20px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        transition-duration: 0.4s;
+        padding: 2px 12px;
+  }
+  .hov:hover{
+    color: black;
+  }
+
+  .p10{
+    padding: 10px;
+}
+.features{
+    display: flex;
+}
+.container{
+    max-width: 1500px;
+    margin: auto;
+}
+.feat{
+    width: 33%;
+    padding-left: 50px;
+}
+.fas{
+    color: blue;
+   font-size: 500%;
+    padding-left: 40px;
 }
