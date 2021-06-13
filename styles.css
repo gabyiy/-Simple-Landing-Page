@@ -1,27 +1,29 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+    background-color: blue;
+    margin:0;
+    height:100%;
     background: floralwhite;
-
-}
-p{
-  color:  darkgray;
-}
-.navbar{
+  }
+  .main{
+      border: 0;
+  }
+  p{
+    color:  darkgray;
+  }
+  .navbar{
     
-display: flex;
-padding-top: 20px;
-padding-bottom: 10px;
-font-size:140%;
-}
-.navbar> *{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-size:100%;
+   margin-bottom: 30%;
+   font-size: 200%;
+    }
+  .navbar> *{
     width : 50%;
 }
 .navbar .buttons{
     text-align: right;
-}
-.tagline{
-    background: green;
 }
 
 .signIn{
@@ -32,86 +34,225 @@ font-size:140%;
         background-color:#008CBA;
         border: none;
         margin-right: 20px;
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 8px;
         color:white;
-
-
+     margin-top: 10px;
 }
-
-
-.firstImg{
-    width:100%;
-    height: 50%;
- background-position: center;
- background-position: center center;
- -webkit-background-size:cover;
- background-size: cover;
- width: 100%;
- height: 100vh;
-}
-
-.contPhoto{
-
-position: relative;
-}
-.textH1{
-color: white;
-font-size: 50px;
-position: absolute;
-top: 40%;
-left: 50%;
-transform: translate(-50%,-50%);
-text-shadow: 0,0,10p  black;
-}
-
-.mail{
-    color:black;
-    font-size: 30px;
-    position: absolute;
-    top: 56%;
-    left:34%;
-    padding-right: 120px;
-
-   
-    
-  }
-  .singnB {
-      padding-right: 30px;
-      background-color:#008CBA;
-      border: none;
-      border-radius: 8px;
-        color:white;
-        font-size: 33px;
-        position: absolute;
-        top: 59%;
-        right: 30%;
-        transform: translate(-50%,-65%);
-        size: 20px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        transition-duration: 0.4s;
-        padding: 2px 12px;
-  }
-  .hov:hover{
+.hov:hover{
     color: black;
   }
 
-  .p10{
-    padding: 10px;
-}
-.features{
+ 
+  .features {
     display: flex;
-}
-.container{
-    max-width: 1500px;
+    text-align: center;
+    padding-top: 100px;
+  }
+ 
+  .container {
     margin: auto;
-}
-.feat{
+    width: 1200px;
+    padding-bottom: 30px;
+  }
+  .fontImg {
+    width: 100%;
+    text-align: center;
+    background: url("img/bg-masthead.jpg") no-repeat     center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size:cover;
+  -moz-background-size: cover ;
+  
+  height:1000px;
+  }
+  .feat {
     width: 33%;
-    padding-left: 50px;
+  }
+  
+  .form1 {
+    padding: 20px;
+  }
+
+  .formH1{
+      padding-top:300px ;
+      font-size: 50px;
+      color: white;
+  }
+  .signB {
+    padding-right: 30px;
+    background-color:#008CBA;
+    border: none;
+    border-radius: 8px;
+      color:white;
+      font-size: 33px;
+      top: 9%;
+      right: 40%;
+      transform: translate(-0%,- 18%);
+      size: 20px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      transition-duration: 0.4s;
+      padding: 5px 12px;
 }
-.fas{
-    color: blue;
-   font-size: 500%;
-    padding-left: 40px;
+.mail{
+  color:black;
+  font-size: 30px;
+  top: 56%;
+  left:34%;
+  padding-right: 120px;
+  padding-left: 230px;
+
+ 
 }
+
+.fas {
+  color:#008CBA;
+  font-size: 500%;
+   padding-left: 40px; 
+}
+.fab{
+  color:#008CBA;
+  font-size: 500%;
+   padding-left: 40px; 
+}
+.far{
+  color:#008CBA;
+  font-size: 500%;
+   padding-left: 40px; 
+}
+.w-100{
+  width: 100%;
+
+}
+
+
+
+  .all{
+    margin: 0 auto;
+text-align: center;
+padding-top: 20px;
+  }
+  
+  .textRigth{
+    text-align: left;
+    padding-top: 150px;
+  }
+ 
+  .firstImg{
+ 
+ width: 100%;
+   height: 59%;
+  }
+  
+
+  
+  .featI{
+    width:50%;
+    
+  }
+  .textH2{
+    padding-top: 100px;
+
+  }
+  .imgSmall{
+    width: 50%;
+    height: 20%;
+
+  }
+  .fill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+  }
+  
+  .fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+
+
+.noPadd {
+padding-top: 0px;  
+padding-bottom: 0px;
+height: 10%;
+
+}
+
+.padH2 {
+padding-top: 100px  !important;
+
+}
+.color{
+  background: red;
+}
+
+.urlSmall{
+  width: 30%;
+  border-radius: 50%;
+}
+
+.sizeF{
+  font-size: 50%;
+}
+.fontImg2 {
+  height: 40%;
+  width:auto;
+  text-align: center;
+  background: url("img/bg-masthead.jpg") no-repeat     center fixed ;
+-webkit-background-size: cover;
+-moz-background-size:cover;
+-moz-background-size: cover ;
+}
+
+.signB2 {
+  padding-right: 30px;
+  background-color:#008CBA;
+  border: none;
+  border-radius: 8px;
+    color:white;
+    font-size: 33px;
+    top: 5%;
+    right: 40%;
+    transform: translate(-10%,- 18%);
+    size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    padding: 5px 12px;
+}
+.mail2{
+color:black;
+font-size: 30px;
+top: 26%;
+left:34%;
+bottom: 80%;
+padding-right: 120px;
+padding-left: 180px;
+
+
+}
+.under{
+  text-decoration: none;
+padding-top: 200px;
+}
+.smallP{
+  font-size: 80%;
+  padding-right: 115px;
+}
+.leftEmoji{
+  text-align: right; 
+  width: 30%;
+}
+.aFlex{
+  display: flex;
+  padding-left: 400px;
+  font-size: 260% !important;
+   
+
+}
+
+  .iconFont{
+    font-size: 100% !important;
+   left: 40px;
+  }
